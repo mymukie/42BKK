@@ -37,9 +37,10 @@ void	ft_print_comb(void)
 		}
 		j = ++i ;
 	}
+
 }
 
-int main(int argc, const char *argv[])
+int main()
 {
 	ft_print_comb();
 	return 0;

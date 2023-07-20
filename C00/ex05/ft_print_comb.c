@@ -14,7 +14,6 @@ void	ft_print(int i, int j, int k)
 	ft_putchar(' ');
 }
 
-
 void	ft_print_comb(void)
 {
 	int i;

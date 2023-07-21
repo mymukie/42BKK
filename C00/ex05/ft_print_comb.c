@@ -20,10 +20,10 @@ void	ft_print_comb(void)
 	int j;
 	int k;
 
+
 	i = '0';
 	j = '1';
 	k = '2';
-
 	while (i < ('7' + 1))
 	{
 		while (j < ('8' + 1))

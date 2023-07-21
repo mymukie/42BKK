@@ -14,7 +14,7 @@ void ft_print(int nb)
     if (nb > 9)
     {
         first = nb / 10;
-        second = nb / 10;
+        second = nb % 10;
         ft_putchar(first + 48);
         ft_putchar(second + 48);
     }

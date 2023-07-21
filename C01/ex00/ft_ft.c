@@ -6,17 +6,16 @@
 /*   By: tmulmane <tmulmane@student.42bangkok.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/21 16:44:52 by mymukie           #+#    #+#             */
-/*   Updated: 2023/07/21 16:49:26 by tmulmane         ###   ########.fr       */
+/*   Updated: 2023/07/21 18:00:25 by tmulmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 
 void ft_ft(int *nbr)
-
-int main()
 {
-    ft_ft(int *nbr);
-    return (0);
+    *nbr = 42;
+
 }
+
 

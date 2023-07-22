@@ -35,7 +35,7 @@ void	ft_print_comb(void)
 			}
 			k = ++j + 1;
 		}
-		j = ++i ;
+		j = ++i;
 	}
 
 }

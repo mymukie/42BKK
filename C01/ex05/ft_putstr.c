@@ -6,7 +6,7 @@
 /*   By: tmulmane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/24 22:50:14 by tmulmane          #+#    #+#             */
-/*   Updated: 2023/07/24 23:57:17 by tmulmane         ###   ########.fr       */
+/*   Updated: 2023/07/25 01:34:06 by tmulmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ void    ft_putstr(char *str)
     int len;
 
     len = 0;
+    // while(len != '\0')
     while(str[len])
     {
         ft_putchar(str[len]);
@@ -31,7 +32,7 @@ void    ft_putstr(char *str)
 /*
 int main(void)
 {
-    char a[] = {'H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '\n'};
+    char a[] = {'H', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd', '\0'};
     ft_putstr(a);
     return (0);
 }*/

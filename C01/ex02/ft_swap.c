@@ -6,14 +6,14 @@
 /*   By: mymukie <mymukie@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/24 14:19:21 by tmulmane          #+#    #+#             */
-/*   Updated: 2023/07/24 22:28:10 by mymukie          ###   ########.fr       */
+/*   Updated: 2023/07/24 22:39:23 by mymukie          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
 
-void ft_swap(int *a, int *b)
+void    ft_swap(int *a, int *b)
 {
     int c;
 

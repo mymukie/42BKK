@@ -6,7 +6,7 @@
 /*   By: tmulmane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 13:50:10 by tmulmane          #+#    #+#             */
-/*   Updated: 2023/07/26 14:23:24 by tmulmane         ###   ########.fr       */
+/*   Updated: 2023/07/26 23:35:39 by tmulmane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
     int i;
 
     i = 0;
-    while(i <= n)
+    while(i <= n && src[i])
     {
         dest[i] = src[i];
         i++;

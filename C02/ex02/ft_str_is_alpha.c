@@ -25,8 +25,8 @@ int ft_str_is_alpha(char *str)
     int j;
     char p;
 
-    i = 0;
-    j = 0;
+	i = 0;
+	j = 0;
     while(str[i])
     {
         while(str[j])

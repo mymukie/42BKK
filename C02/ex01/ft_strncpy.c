@@ -24,12 +24,13 @@ char *ft_strncpy(char *dest, char *src, unsigned int n)
     }
     return (dest);
 }
-/*
+
 #include <unistd.h>
 
 char ft_putchar(char c)
 {
     write(1, &c, 1);
+    return (0);
 }
 
 int main(void)
@@ -47,6 +48,5 @@ int main(void)
         ft_putchar(B[len]);
         len++;
     }
-    
-    return (0);
-}*/
+    write(1, "\n", 1);
+}
